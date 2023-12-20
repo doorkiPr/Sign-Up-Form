@@ -3,6 +3,10 @@ body{
     padding: 0px;
 }
 /* body margin reset */
+@font-face {
+    font-family: 'logoFont';
+    src: url(https://fonts.gstatic.com/s/sharetechmono/v15/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2);
+}
 .bigContainer{
     display: flex;
 }
@@ -25,4 +29,5 @@ height: 100vh
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'logoFont';
 }
