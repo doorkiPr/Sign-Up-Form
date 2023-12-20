@@ -41,3 +41,10 @@ height: 100vh
     justify-content: center;
     font-family: 'logoFont';
 }
+.header{
+    background-color: var(--darkBlue);
+    height: 30vh;
+    padding: 50px;
+    font-size: 2rem;
+    color: var(--background);
+}
