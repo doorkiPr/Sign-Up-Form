@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="script.js" async></script>
     <link rel="stylesheet" href="style.css">
@@ -7,14 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <div class="bigContainer">
         <div class="backgroundContainer">
             <div class="logoContainer">NeuraTech
-                <img src="media/logo.png"/>
+                <img src="media/logo.png" />
             </div>
         </div>
-        <div class="rightSideContainer"></div>
+        <div class="rightSideContainer">
+            <div class="header"></div>
+            <div class="main">
+                <form action="#" method="post">
+                    <label for="id">Identifier*</label>
+                    <input name="id" id="id" type="text" required/>
+                    <label for="serial">Serial Number*</label>
+                    <input name="serial" id="serial" type="number" minlength="6"/>
+                    <label for="email">Email*</label>
+                    <input name="email" id="email" type="email" required/>
+                    <label for="password">Password*</label>
+                    <input name="password" id="password" type="password" required/>
+                    <label for="repeatPassword">Repeat Password*</label>
+                    <input id="repeatPassword" type="password"  required/>
+                    <button type="submit">Initialize</button>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
