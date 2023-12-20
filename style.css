@@ -12,4 +12,5 @@ height: 100vh
 .backgroundContainer{
     width: 40%;
     background-image: url("media/file.jpg");
+    background-size: cover;
 }
