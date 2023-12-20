@@ -16,3 +16,10 @@ height: 100vh
     display: flex;
     align-items: center;
 }
+
+.logoContainer{
+    width: 100%;
+    background-color: black;
+    opacity: 40%;
+    font-size: 5rem;
+}
