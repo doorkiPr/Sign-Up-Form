@@ -18,6 +18,7 @@ body{
 }
 .bigContainer{
     display: flex;
+    background-color: var(--background);
 }
 .backgroundContainer,.rightSideContainer{
 height: 100vh
