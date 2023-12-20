@@ -58,7 +58,8 @@ height: 100vh
     width: 50vw;
     display: flex;
     flex-wrap: wrap;
-    gap : 5px;
+    gap : 30px;
+    justify-content: space-around;
 }
 
 input{
@@ -72,4 +73,19 @@ input{
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+form{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.button{
+    width: 200px;
+    font-size: 1.5rem;
+    background-color: var(--violet);
+    border: none;
+    border-radius: 5px;
+    align-self: center;
 }
