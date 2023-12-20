@@ -1,3 +1,12 @@
+:root{
+    --background: #091833;
+    --lightBlue : #0abdc6;
+    --darkBlue : #133e7c;
+    --violet  : #711c91;
+    --lightViolet : #ea00d9;
+    --errorRed : #cb0c59;
+}
+
 body{
     margin: 0px;
     padding: 0px;
