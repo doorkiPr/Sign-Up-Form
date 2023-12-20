@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* body margin reset */
+.bigContainer{
+    display: flex;
+}
+.backgroundContainer,.rightSideContainer{
+height: 100vh
+}
+.backgroundContainer{
+    width: 40%;
+    background-image: url("media/file.jpg");
+}
